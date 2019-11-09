@@ -1,0 +1,75 @@
+#nav-bar {
+    position: fixed;
+    min-width: 250px;
+    height: 100vh;
+    border-right: 1px solid black;
+}
+
+#nav-bar header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgray;
+}
+
+#main-doc {
+    margin-left: 300px;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+#nav-bar li {
+    margin-left: -50px;
+    list-style: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+}
+
+#nav-bar li:hover {
+    background-color: darkgrey;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar a:hover {
+    color: rgb(233, 217, 217);
+}
+
+
+#main-doc section {
+    border-top: 1px solid;
+    margin-left: -50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#month0 {
+    border-top: none;
+}
+
+@media(max-width: 700px) {
+   #nav-bar {
+       position: relative;
+       height: 20vh;
+       margin-bottom: 10px;
+   }
+
+   #main-doc {
+       padding-top: 20px;
+       margin-left: 40px;
+       margin-top: 100px;
+       padding-bottom: 20px;
+   }
+
+   #main-doc section {
+       padding: 10px 20px;
+   }
+
+   #month0 {
+       border-top: none;
+   }
+}
